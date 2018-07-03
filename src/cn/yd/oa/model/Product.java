@@ -8,6 +8,11 @@ public class Product {
     private Double price;
     private String remark;
     private Date date;
+
+    public Product() {
+        System.out.println("product");
+    }
+
     public Integer getId() {
         return id;
     }

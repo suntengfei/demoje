@@ -3,4 +3,17 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_4_0.xsd"
          version="4.0">
+    <!--<servlet>
+        <servlet-name>ProductServlet</servlet-name>
+        <servlet-class>cn.yd.oa.servlet.ProductServlet</servlet-class>
+    </servlet>
+    &lt;!&ndash; servlet的映射配置 &ndash;&gt;
+    <servlet-mapping>
+        &lt;!&ndash; servlet的内部名称，一定要和上面的内部名称保持一致！！ &ndash;&gt;
+        <servlet-name>ProductServlet</servlet-name>
+        &lt;!&ndash; servlet的映射路径（访问servlet的名称） &ndash;&gt;
+        <url-pattern>/productservlet</url-pattern>
+    </servlet-mapping>-->
+
+
 </web-app>
